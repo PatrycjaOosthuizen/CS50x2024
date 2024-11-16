@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eat Tasty Meal is a website related to food, contain delicious lunch and dinner recipes, photos, instructions how to make each recipe from scratch. All recipes are tested by Patrycja who is freelancer food developer."
+    />
+    <title>Lunch and Dinner - Eat Tasty Meal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/a6d14d09e1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="About page Eat Tasy Meal"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contat page to Eat Tasty Meal"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Recipes
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/breakfast.html">Breakfast</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/lunch-dinner.html"
+                    >Lunch & Dinner</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/sweet-savoury.html"
+                    >Sweet & Savoury
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Lunch & Dinner</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-3" id="back-butternut-soup">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/butternut-soup.JPG"
+              class="card-img-top"
+              alt="butternut squash soup"
+              title="butternut squash soup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Butternut Squash Soup</h5>
+              <p class="card-text">Comforting bowl of butternut squash soup.</p>
+              <a href="#butternut-soup" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-chilli-tofu">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/chilli-tofu.jpeg"
+              class="card-img-top"
+              alt="Crispy Chilli Tofu & Cucumber salad"
+              title="Crispy Chilli Tofu & Cucumber salad"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Crispy Chilli Tofu & Cucumber Salad</h5>
+              <p class="card-text">Sticky sauce is out of this world.</p>
+              <a href="#chilli-tofu" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-almond-butter-ramen">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/almond-butter-ramen.JPG"
+              class="card-img-top"
+              alt="Almond Butter Ramen"
+              title="Almond Butter Ramen"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Almond Butter Ramen</h5>
+              <p class="card-text">
+                This ramen is an absolute comfort food recipe.
+              </p>
+              <a href="#almond-butter-ramen" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-chickpeas-wrap">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/chickpeas-pomegranate-wrap.JPG"
+              class="card-img-top"
+              alt="Chickpeas & Pomegranate Wrap"
+              title="Chickpeas & Pomegranate Wrap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chickpeas & Pomegranate Wrap</h5>
+              <p class="card-text">
+                Handy recipe when you want balanced plant- based meal.
+              </p>
+              <a href="#chickpeas-wrap" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-3" id="back-spicy-tofu-burrito">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/tofu-burrito-wrap.jpeg"
+              class="card-img-top"
+              alt="Spicy Tofu Burrito"
+              title="Spicy Tofu Burrito"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Spicy Tofu Burrito</h5>
+              <p class="card-text">
+                Simple to prepare, absolutely delicious rich in plant-based
+                protein and fibre.
+              </p>
+              <a href="#spicy-tofu-burrito" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-hawaiian-macaroni-salad">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/hawaiian-macaroni-salad2.JPG"
+              class="card-img-top"
+              alt="Hawaiian Macaroni Salad"
+              title="Hawaiian Macaroni Salad"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hawaiian Macaroni Salad</h5>
+              <p class="card-text">
+                Supremely creamy, a little bit sweet, with just the right amount
+                of crunch.
+              </p>
+              <a href="#hawaiian-macaroni-salad" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-spicy-lemon-vodka-rigatoni">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/spicy-lemon-vodka-rigatoni.jpg"
+              class="card-img-top"
+              alt="Spicy Lemon Vodka Sauce With Rigatoni"
+              title="Spicy Lemon Vodka Sauce With Rigatoni"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Spicy Lemon Vodka Sauce With Rigatoni</h5>
+              <p class="card-text">Velvety sauce with a spicy kick.</p>
+              <a
+                href="#spicy-lemon-vodka-rigatoni"
+                class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-veggie-chilli">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/veggie-chilli.JPG"
+              class="card-img-top"
+              alt="Veggie Chilli"
+              title="Veggie Chilli"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Veggie Chilli</h5>
+              <p class="card-text">
+                This healthy bean chilli provides a great way to boost your
+                5-a-day.
+              </p>
+              <a href="#veggie-chilli" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-tofu-tacos">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/tofu-tacos.JPG"
+              class="card-img-top"
+              alt="Shredded Tofu Tacos"
+              title="Shredded Tofu Tacos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shredded Tofu Tacos</h5>
+              <p class="card-text">
+                Meatless yet still high in protein and super delicious.
+              </p>
+              <a href="#tofu-tacos" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-squash-curry">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/squash-curry.jpg"
+              class="card-img-top"
+              alt="butternut squash curry"
+              title="butternut squash curry"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Creamy Sweet Potato & Butternut Squash Curry
+              </h5>
+              <p class="card-text">
+                This nutritious and natural sweet soup. The perfect cozy vegan
+                recipe!
+              </p>
+              <a href="#squash-curry" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-beetroot-soup">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/beetroot-soup.JPG"
+              class="card-img-top"
+              alt="Roasted Beetroot & Carrot Soup"
+              title="Roasted Beetroot & Carrot Soup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Roasted Beetroot & Carrot Soup</h5>
+              <p class="card-text">
+                Vibrant vegetarian soup jam packed with nutriens and rich earthy
+                flavour.
+              </p>
+              <a href="#beetroot-soup" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3" id="back-detox-soup">
+          <div class="card h-100" style="width: 20rem">
+            <img
+              src="/images/detox-soup.JPG"
+              class="card-img-top"
+              alt="Detox Turmeric Lentil Soup"
+              title="Detox Turmeric Lentil Soup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Detox Turmeric Lentil Soup</h5>
+              <p class="card-text">
+                This super rich, nutritious and healthy soup is made with
+                ingredients that support liver and digestive health.
+              </p>
+              <a href="#detox-soup" class="btn btn-branding shadow"
+                >Go to recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/images/butternut-soup2.JPG"
+            alt="butternut squash soup"
+            title="butternut squash soup"
+            class="recipe-image img-fluid rounded-start-pill"
+          />
+        </div>
+        <div class="col-lg-6" id="butternut-soup">
+          <h3 class="mb-3 mt-3 mt-lg-5">Butternut Squash Soup</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 45 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">
+              1 Butternut squash, about 1kg, peeled, deseeded and cubed
+            </li>
+            <li class="recipe-ingredient">2 Tablespoons Olive oil</li>
+            <li class="recipe-ingredient">1 Tablespoon Butter</li>
+            <li class="recipe-ingredient">2 Onions, diced</li>
+            <li class="recipe-ingredient">2 Garlic cloves, thinly sliced</li>
+            <li class="recipe-ingredient">
+              1 red Chilli, deseeded and finely chopped
+            </li>
+            <li class="recipe-ingredient">850ml hot vegetable Stock</li>
+            <li class="recipe-ingredient">
+              4 tbsp Crème Fraîche, plus more to serve
+            </li>
+            <li class="recipe-ingredient">Chive finely chopped to serve</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">Heat the oven to 180°C fan.</li>
+            <li class="recipe-instruction">
+              Cut the squash into large cubes, then toss in a large roasting tin
+              with 1 tbsp of the olive oil.
+            </li>
+            <li class="recipe-instruction">
+              Roast for 30 mins, turning once during cooking, until golden and
+              soft.
+            </li>
+            <li class="recipe-instruction">
+              While the butternut squash cooks, melt the butter with the
+              remaining 1 tbsp olive oil in a large saucepan, then add the
+              onions, garlic clove and three-quarters of the chillies.
+            </li>
+            <li class="recipe-instruction">
+              Cover and cook on a very low heat for 15-20 mins until the onions
+              are completely soft.
+            </li>
+            <li class="recipe-instruction">
+              Tip the butternut squash into the pan, add the stock and crème
+              fraîche, then whizz with a stick blender until smooth. For a
+              really silky soup, put the soup into a liquidiser and blitz it in
+              batches.
+            </li>
+            <li class="recipe-instruction">
+              Return to the pan, gently reheat, then season to taste. Serve the
+              soup in bowls with swirls of crème fraîche and a scattering of the
+              chopped chives.
+            </li>
+          </ol>
+
+          <a href="#back-butternut-soup" class="link">Go to The Top</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-6" id="chilli-tofu">
+          <h3 class="mb-3 mt-3">Crispy Chilli Tofu & Cucumber Salad</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 40 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">
+              280g Tofu (extra firm
+              <a
+                href="https://tofoo.co.uk/"
+                title="tofoo"
+                target="_blank"
+                >Tofoo</a
+              >)
+            </li>
+            <li class="recipe-ingredient">2 Tablespoons Cornflour</li>
+            <li class="recipe-ingredient">1 Tablespoon of Rapseed oil</li>
+            <li class="recipe-ingredient">
+              Buch of spring onion, finely sliced
+            </li>
+            <li class="recipe-ingredient">½ leek, finely sliced</li>
+            <li class="recipe-ingredient">Salt and pepper to taste</li>
+            <li class="recipe-ingredient">
+              <u>To serve:</u> Toasted sesame seeds
+            </li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Sauce:</u>
+            <li class="recipe-ingredient">2 Garlic cloves, grated</li>
+            <li class="recipe-ingredient">
+              1 thumb sized piece of ginger, grated
+            </li>
+            <li class="recipe-ingredient">4 Tablespoons Soy sauce</li>
+            <li class="recipe-ingredient">
+              3 Tablespoons
+              <a
+                href="https://en.wikipedia.org/wiki/Sriracha"
+                title="Sriracha sauce"
+                target="_blank"
+                >Sriracha sauce</a
+              >
+            </li>
+            <li class="recipe-ingredient">2 Tablespoons ketchup</li>
+            <li class="recipe-ingredient">2 Tablespoons Rice wine vinegar</li>
+            <li class="recipe-ingredient">2 Tablespoons Caster sugar</li>
+            <li class="recipe-ingredient">
+              1 Tablespoon Cornflour mixed with 1 Tablespoon of water
+            </li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Cucumber salad:</u>
+            <li class="recipe-ingredient">1 Cucumber</li>
+            <li class="recipe-ingredient">½ Tablespoon Soy sauce</li>
+            <li class="recipe-ingredient">½ Tablespoon Rice wine vinegar</li>
+            <li class="recipe-ingredient">1 Tablespoon Sesame oil</li>
+            <li class="recipe-ingredient">1 teaspoon Caster sugar</li>
+          </ul>
+
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Start with cucumber salad, cut cucumber into chunks. Combine soy
+              sauce, rice vinegar, sesame oil, caster sugar. Pour over cucumber
+              set aside while you continue with the recipe.
+            </li>
+            <li class="recipe-instruction">
+              <u>Sauce:</u> Combine garlic, ginger, soy sauce, sriracha,
+              ketchup, rice wine vinegar, sugar and cornflour slurry in a jug
+              and wisk well until smooth.
+            </li>
+            <li class="recipe-instruction">
+              Use a clean tea towel to press the tofu and remove any excess
+              moisture, then break it apart into cubes or irregular chunks and
+              place in a mix bowl. add the cornflour, pepper and a good pinch of
+              salt and mix well to coat.
+            </li>
+            <li class="recipe-instruction">
+              Heat 2 Tablespoons of oil in a large frying pan or wok over a
+              medium heat. Once hot, fry the tofu for 5-7 minutes, stirring
+              frequently, until golden brown and crispy. Remove from the pan and
+              set aside.
+            </li>
+            <li class="recipe-instruction">
+              Return the same pan back over a medium heat and add 2 Tablespoons
+              of oil. Once hot add onion and spring onion and stir fry for 3-5
+              minutes until slightly golden and soften. Pour in the sauce and
+              let it bubble away, stirring constantly for 3-4 minutes or until
+              it is sticky and will coat the back of a spoon. Taste and adjust
+              seasoning, if needed.
+            </li>
+            <li class="recipe-instruction">
+              Add tofu to sauce stir well until sauce covers tofu completely.
+            </li>
+            <li class="recipe-instruction">
+              Serve in a bowl with sticky rice, cucumber salad and sprinkle with
+              toasted sesame seeds.
+            </li>
+          </ol>
+
+          <a href="#back-chilli-tofu" class="link">Go to The Top</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="/images/chilli-tofu.jpeg"
+            alt=" crispy chilli tofu and cucumber salad"
+            title="crispy chilli tofu and cucumber salad"
+            class="recipe-image img-fluid rounded-end-pill"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/images/almond-butter-ramen.JPG"
+            alt="Almond Butter Ramen"
+            title="Almond Butter Ramen"
+            class="recipe-image img-fluid rounded-start-pill"
+          />
+        </div>
+        <div class="col-lg-6" id="almond-butter-ramen">
+          <h3 class="mb-3 mt-3">Almond Butter Ramen</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 45 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            <u>For the broth: </u>
+            <li class="recipe-ingredient">1 Tablespoon Sesame oil</li>
+            <li class="recipe-ingredient">1 thumb sized piece of Ginger</li>
+            <li class="recipe-ingredient">5 Garlic cloves</li>
+            <li class="recipe-ingredient">1 bunch of Spring onions</li>
+            <li class="recipe-ingredient">1 teaspoon Chilli Oil</li>
+            <li class="recipe-ingredient">1 teaspoon Turmeric</li>
+            <li class="recipe-ingredient">1 Tablespoon Soy sauce</li>
+            <li class="recipe-ingredient">1 teaspoon Miso paste</li>
+            <li class="recipe-ingredient">1 teaspoon Almond butter</li>
+            <li class="recipe-ingredient">1 teaspoon Tahini</li>
+            <li class="recipe-ingredient">
+              1 L Vegetable stock (1 stock cube)
+            </li>
+            <li class="recipe-ingredient">200ml Coconut milk</li>
+            <li class="recipe-ingredient">1 Lime, juice</li>
+            <li class="recipe-ingredient">
+              coconut Sugar, Salt and pepper to taste
+            </li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>For the tofu topping: </u>
+            <li class="recipe-ingredient">
+              280g Tofu (extra firm
+              <a
+                href="https://tofoo.co.uk/"
+                title="tofoo"
+                target="_blank"
+                >Tofoo</a
+              >)
+            </li>
+            <li class="recipe-ingredient">2 Tablespoons Cornflour</li>
+            <li class="recipe-ingredient">2 Tablespoons Sesame Oil</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>For the glaze: </u>
+            <li class="recipe-ingredient">1 Tablespoon Garlic powder</li>
+            <li class="recipe-ingredient">1 Tablespoon Ginger powder</li>
+            <li class="recipe-ingredient">1 Tablespoon Soy sauce</li>
+            <li class="recipe-ingredient">1 teaspoon Miso paste</li>
+            <li class="recipe-ingredient">1 teaspoon Almond butter</li>
+            <li class="recipe-ingredient">1-2 Tablespoons Water</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>To serve: </u>
+            <li class="recipe-ingredient">
+              4 servings Noodles of your choice(cooked per instruction on
+              packaging)
+            </li>
+            <li class="recipe-ingredient">Broccoli</li>
+            <li class="recipe-ingredient">Pak Choi</li>
+            <li class="recipe-ingredient">Toasted sesame seeds</li>
+            <li class="recipe-ingredient">Spring onions greens</li>
+            <li class="recipe-ingredient">Chilli oil</li>
+            <li class="recipe-ingredient">Fresh coriander</li>
+            <li class="recipe-ingredient">Lime</li>
+          </ul>
+
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Mince the garlic, ginger & chilli, then fry in 2 tablespoons
+              sesame oil until fragrant.
+            </li>
+            <li class="recipe-instruction">
+              Mix the vegetable stock with the miso + almond butter, then add
+              with the coconut milk.
+            </li>
+            <li class="recipe-instruction">
+              Season with 1 Tablespoon soy sauce, 1 tablespoon turmeric, black
+              pepper & 1 Tablespoon sugar. Simmer for 15-20 mins - then season
+              with lime juice.
+            </li>
+
+            <li class="recipe-instruction">
+              To make the tofu glaze, mix ginger powder, garlic powder, soy
+              sauce, miso & almond butter. Add a splash of water to loosen.
+            </li>
+            <li class="recipe-instruction">
+              Cut the tofu into 1cm thick slice, coat in seasoned cornflour &
+              fry in 2 Tablespoons sesame oil until crispy. Add tofu to glaze &
+              coat well.
+            </li>
+            <li class="recipe-instruction">
+              Cook the noodles, slice spring onion & toast sesame seeds.
+            </li>
+            <li class="recipe-instruction">
+              Bowl up - noodles, broth, tofu, garnishes & enjoy!
+            </li>
+          </ol>
+
+          <a href="#back-almond-butter-ramen" class="link">Go to The Top</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-6" id="chickpeas-wrap">
+          <h3 class="mb-3 mt-3">Chickpeas & Pomegranate Wrap</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 20 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">
+              2 tin Chickpeas( 800g), drained, rinsed and dried
+            </li>
+            <li class="recipe-ingredient">8 Coriander stems, leaves only</li>
+            <li class="recipe-ingredient">1 Pomegranate</li>
+            <li class="recipe-ingredient">4 large soft Tortillas</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>For roasting:</u>
+            <li class="recipe-ingredient">Olive oil</li>
+            <li class="recipe-ingredient">41 teaspoon Paprika</li>
+            <li class="recipe-ingredient">1 teaspoon Onion powder</li>
+            <li class="recipe-ingredient">Salt to taste</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>For the dressing:</u>
+            <li class="recipe-ingredient">¾ cup Tahini</li>
+            <li class="recipe-ingredient">1 teaspoon ground Cumin</li>
+            <li class="recipe-ingredient">1 teaspoon Cinnamon powder</li>
+            <li class="recipe-ingredient">1 teaspoon Curry powder</li>
+            <li class="recipe-ingredient">½ 1 teaspoon Cayenne pepper</li>
+            <li class="recipe-ingredient">1 lemon, juice</li>
+            <li class="recipe-ingredient">2 Garlic cloves, minced</li>
+            <li class="recipe-ingredient">
+              ½ cup cold water, plus more as needed
+            </li>
+            <li class="recipe-ingredient">1 teaspoon Salt</li>
+            <li class="recipe-ingredient">1 Tablespoon Agave or Maple syrup</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">Preheat the oven to 200°C fan.</li>
+            <li class="recipe-instruction">
+              In a large bowl add chickpeas, olive oil, paprika, onion powder
+              and salt. Give it a toss. Transfer to a large lined baking tray,
+              roast for about 15 minutes or until crispy.
+            </li>
+            <li class="recipe-instruction">
+              In another bowl mix tahini, lemon juice, cinnamon powder, cumin,
+              curry powder, cayenne, salt, agave syrup and minced garlic. Add
+              the ice-cold water and mix.
+            </li>
+            <li class="recipe-instruction">
+              Add tahini mix to previously baked chickpeas and mix until
+              combined.
+            </li>
+            <li class="recipe-instruction">
+              On each wrap add equal portions of chickpeas mix, add some
+              pomegranate seeds and coriander leaves.
+            </li>
+            <li class="recipe-instruction">
+              Wrap the tortilla shells by closing both ends and rolling tight.
+            </li>
+            <li class="recipe-instruction">
+              On the large hot nonstick pan fry the wraps on each side for
+              several minutes until golden crispy.
+            </li>
+          </ol>
+
+          <a href="#back-chickpeas-wrap" class="link">Go to The Top</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="/images/chickpeas-pomegranate-wrap.JPG"
+            alt="Chickpeas & Pomegranate Wraps"
+            title="Chickpeas & Pomegranate Wrap"
+            class="recipe-image img-fluid rounded-end-pill"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/images/tofu-burrito-wrap.jpeg"
+            alt="Spicy Tofu burrito"
+            title="Spicy Tofu burrito"
+            class="recipe-image img-fluid rounded-start-pill"
+          />
+        </div>
+        <div class="col-lg-6" id="spicy-tofu-burrito">
+          <h3 class="mb-3 mt-3">Spicy Tofu Burrito</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 45 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">6 Tortilla wraps</li>
+            <li class="recipe-ingredient">60g Grated mild cheddar cheese</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Flavoured Tofu:</u>
+            <li class="recipe-ingredient">
+              450g Tofu (extra firm
+              <a
+                href="https://tofoo.co.uk/"
+                alt="tofoo"
+                target="_blank"
+                >Tofoo</a
+              >)
+            </li>
+            <li class="recipe-ingredient">2 Tablespoons Soya sauce</li>
+            <li class="recipe-ingredient">2 Tablespoons Olive oils</li>
+            <li class="recipe-ingredient">1 teaspoon smoked Paprika</li>
+            <li class="recipe-ingredient">1 teaspoon Cumin</li>
+            <li class="recipe-ingredient">Salt to taste</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Burrito sauce: </u>
+            <li class="recipe-ingredient">1 red Onion</li>
+            <li class="recipe-ingredient">1 Tablespoon Olive oil</li>
+            <li class="recipe-ingredient">3 Garlic cloves</li>
+            <li class="recipe-ingredient">2 Tablespoons Tomato paste</li>
+
+            <li class="recipe-ingredient">
+              3 Tablespoons
+              <a
+                href="https://en.wikipedia.org/wiki/Sriracha"
+                title="Sriracha sauce"
+                target="_blank"
+                >Sriracha sauce</a
+              >
+            </li>
+            <li class="recipe-ingredient">1 teaspoon Cumin</li>
+            <li class="recipe-ingredient">1 teaspoon ground Coriander</li>
+            <li class="recipe-ingredient">½ teaspoon Cinnamon powder</li>
+            <li class="recipe-ingredient">125ml Orange juice</li>
+            <li class="recipe-ingredient">1 Tablespoon Cocoa powder</li>
+            <li class="recipe-ingredient">
+              1 tin(400g) Black beans (drained and rinsed)
+            </li>
+            <li class="recipe-ingredient">Salt & black Pepper to taste</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Garnish:</u>
+            <li class="recipe-ingredient">2 Tomatoes</li>
+            <li class="recipe-ingredient">Buch of chopped Parsley</li>
+            <li class="recipe-ingredient">½ Lime, juice</li>
+            <li class="recipe-ingredient">Salt & black Pepper to taste</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">Preheat oven to 180°C fan.</li>
+            <li class="recipe-instruction">
+              Use a clean tea towel to press the tofu and remove any excess
+              moisture. Use the large side of a block grater to grate the tofu
+              into shreds. You'll also end up with a few crumbly bits, which is
+              fine. Add soya sauce, smoked paprika, cumin, salt and olive oil,
+              combine and spread over large lined baking tray and bake for 10-15
+              minutes until slightly golden.
+            </li>
+            <li class="recipe-instruction">
+              Meanwhile slice onion and fry on the hot pan with olive oil, until
+              tender, add cumin coriander and cinnamon powder, mix well then add
+              minced garlic cloves, tomato paste, sriracha sauce, orange juice
+              and cocoa powder, let it simmer for couple of minutes.
+            </li>
+            <li class="recipe-instruction">
+              Add black beans into burrito sauce and combine.
+            </li>
+            <li class="recipe-instruction">
+              On each tortilla wrap add equal portion of black bean burrito mix,
+              cheese, tofu mix, tomato garnish. Wrap the tortilla shells by
+              closing both ends and rolling tight. Wrap each tortilla shells in
+              baking paper and bake for 15 minutes in 180°C preheated oven.
+            </li>
+          </ol>
+
+          <a href="#back-spicy-tofu-burrito" class="link">Go to The Top</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-6" id="hawaiian-macaroni-salad">
+          <h3 class="mb-3 mt-3 mt-lg-5">Hawaiian Macaroni Salad</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 90 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">500g Macaroni pasta</li>
+            <li class="recipe-ingredient">2 ½ teaspoons sea salt</li>
+            <li class="recipe-ingredient">1 ½ cups Mayonnaises</li>
+            <li class="recipe-ingredient">1 tablespoon Dijon mustard</li>
+            <li class="recipe-ingredient">
+              1 ½ tablespoons Apple cider vinegar
+            </li>
+            <li class="recipe-ingredient">1 tablespoon Agave nectar</li>
+            <li class="recipe-ingredient">1 large Carrot shredded</li>
+            <li class="recipe-ingredient">3 ribs Celery finely sliced</li>
+            <li class="recipe-ingredient">1 red Onion chopped</li>
+            <li class="recipe-ingredient">1 cup chopped fresh Parsley</li>
+          </ul>
+
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              <u>Cook the pasta.</u> Bring a large pot water to a boil and add
+              the 2 teaspoons sea salt. Add the pasta to the boiling water and
+              cook as directed on the pasta packaging. Drain the pasta and
+              transfer it to a large bowl.
+            </li>
+            <li class="recipe-instruction">
+              <u>Dress the pasta.</u> Add the mayonnaise, Dijon mustard, apple
+              cider vinegar, agave nectar and ½ teaspoon sea salt to the bowl.
+              Mix with a rubber spatula until the pasta is evenly coated in the
+              dressing.
+            </li>
+            <li class="recipe-instruction">
+              <u>Add the veggies.</u> Add the carrot, celery, onion, and chopped
+              fresh parsley to the bowl and mix to incorporate into the dressed
+              pasta.
+            </li>
+            <li class="recipe-instruction">
+              <u>Chill.</u> Allow the pasta salad to cool to room temperature
+              before covering it and placing in the refrigerator for 1 hour.
+            </li>
+          </ol>
+
+          <a href="#back-hawaiian-macaroni-salad" class="link">Go to The Top</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="/images/hawaiian-macaroni-salad2.JPG"
+            alt="Hawaiian Macaroni Salad"
+            title="Hawaiian Macaroni Salad"
+            class="recipe-image img-fluid rounded-end-pill"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/images/spicy-lemon-vodka-rigatoni.jpg"
+            alt="Spicy Lemon Vodka Sauce With Rigatoni"
+            title="Spicy Lemon Vodka Sauce With Rigatoni"
+            class="recipe-image img-fluid rounded-start-pill"
+          />
+        </div>
+        <div class="col-lg-6" id="spicy-lemon-vodka-rigatoni">
+          <h3 class="mb-3 mt-3 mt-lg-3">
+            Spicy Lemon Vodka Sauce With Rigatoni
+          </h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 30 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">4 garlic cloves , diced</li>
+            <li class="recipe-ingredient">
+              2 Tablespoon extra-virgin Olive oil , plus more for drizzling
+            </li>
+            <li class="recipe-ingredient">400g Passata</li>
+            <li class="recipe-ingredient">
+              1 fresh chili (remove seeds to reduce heat)
+            </li>
+            <li class="recipe-ingredient">½ teaspoon lemon zest</li>
+            <li class="recipe-ingredient">1 teaspoons of caster sugar</li>
+            <li class="recipe-ingredient">Salt and paper to taste</li>
+            <li class="recipe-ingredient">400g Rigatoni pasta</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Add the garlic on cold olive oil and sauté 1- 2 minutes until
+              fragrant add chilli, lemon zest, vodka sauté for 2 minutes then
+              add passata, sugar, salt and pepper continue to cook for another 5
+              - 7 minutes until the sauce has thickened.
+            </li>
+            <li class="recipe-instruction">
+              Cook the rigatoni pasta according to package instructions.
+            </li>
+            <li class="recipe-instruction">
+              Add the rigatoni into the pan with the sauce and toss to combine.
+            </li>
+            <li class="recipe-instruction">
+              Serve immediately and garnish with fresh basil and sprinkle
+              parmesan.
+            </li>
+          </ol>
+
+          <a href="#back-spicy-lemon-vodka-rigatoni" class="link"
+            >Go to The Top</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-6" id="veggie-chilli">
+          <h3 class="mb-3 mt-3">Veggie Chilli</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 60 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">500 g sweet Potatoes</li>
+            <li class="recipe-ingredient">1 teaspoon Cayenne pepper</li>
+            <li class="recipe-ingredient">1 teaspoon ground Cumin</li>
+            <li class="recipe-ingredient">1 teaspoon ground Cinnamonr</li>
+            <li class="recipe-ingredient">olive Oil</li>
+            <li class="recipe-ingredient">1 red Onion (medium)</li>
+            <li class="recipe-ingredient">2 Mixed-colour bell Peppers</li>
+            <li class="recipe-ingredient">3 cloves of Garlic</li>
+            <li class="recipe-ingredient">1 bunch of fresh Coriander (30g)</li>
+            <li class="recipe-ingredient">2 fresh mixed-colour Chillies</li>
+            <li class="recipe-ingredient">
+              2 x 400 g tins of Beans, such as butter beans, chickpea,
+              cannellini
+            </li>
+            <li class="recipe-ingredient">
+              2 x 400 g tins of quality peeled plum Tomatoes
+            </li>
+            <li class="recipe-ingredient">1 Lemon, zest</li>
+            <li class="recipe-ingredient">½ teaspoon coconut sugar</li>
+            <li class="recipe-ingredient">
+              Salt, black Pepper, lemon juice to taste
+            </li>
+            <li class="recipe-ingredient">
+              <u>Serve with:</u> Greek yoghurt, guacamole, rice & tortilla
+              chips.
+            </li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">Preheat the oven to 180°C fan.</li>
+            <li class="recipe-instruction">
+              Peel and chop the sweet potatoes into bite-sized chunks, then
+              place onto a baking tray.
+            </li>
+            <li class="recipe-instruction">
+              Sprinkle with a pinch each of cayenne, cumin, cinnamon, sea salt
+              and black pepper, drizzle with oil then toss to coat. Roast for 35
+              minutes or until golden and tender.
+            </li>
+            <li class="recipe-instruction">
+              Peel and roughly chop the onion. Halve, deseed and roughly chop
+              the peppers, then peel and finely slice the garlic.
+            </li>
+            <li class="recipe-instruction">
+              Pick the coriander leaves, finely chopping the stalks. Deseed and
+              finely chop the chillies.
+            </li>
+            <li class="recipe-instruction">
+              Meanwhile, put 2 tablespoons of oil in a large pan over a
+              medium-high heat, then add the onion, peppers and garlic, and cook
+              for 5 minutes, stirring regularly.
+            </li>
+            <li class="recipe-instruction">
+              Add the coriander stalks, chillies and spices, and cook for a
+              further 5 minutes, or until softened and starting to caramelise,
+              stirring occasionally.
+            </li>
+            <li class="recipe-instruction">
+              Add the beans, lemon zest and all. Tip in the tomatoes, breaking
+              them up with the back of a spoon, then stir well.
+            </li>
+            <li class="recipe-instruction">
+              Bring to the boil, then reduce the heat to medium-low and leave to
+              tick away for 20 minutes, or until thickened and reduced - keep an
+              eye on it, and add a splash of water to loosen, if needed.
+            </li>
+            <li class="recipe-instruction">
+              Stir the roasted sweet potato through the chilli with most of the
+              coriander leaves, add coconut sugar, then taste and adjust the
+              seasoning, if needed.
+            </li>
+            <li class="recipe-instruction">
+              Finish with a squeeze of lemon juice, then scatter over the
+              remaining coriander. Served with Greek yoghurt, guacamole and
+              rice, or tortilla chips.
+            </li>
+          </ol>
+
+          <a href="#back-veggie-chilli" class="link">Go to The Top</a>
+        </div>
+
+        <div class="col-lg-6 mt-lg-5">
+          <img
+            src="/images/veggie-chilli.JPG"
+            alt="veggie chilli"
+            title="veggie chilli"
+            class="recipe-image img-fluid rounded-end-pill"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/images/tofu-tacos2.JPG"
+            alt="Shredded Tofu Tacos"
+            title="Shredded Tofu Tacos"
+            class="recipe-image img-fluid rounded-start-pill"
+          />
+        </div>
+        <div class="col-lg-6" id="tofu-tacos">
+          <h3 class="mb-3 mt-3">Shredded Tofu Tacos</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 45 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+
+            <li class="recipe-ingredient">
+              450g Tofu (extra firm
+              <a
+                href="https://tofoo.co.uk/"
+                title="tofoo"
+                target="_blank"
+                >Tofoo</a
+              >)
+            </li>
+            <li class="recipe-ingredient">2 Tablespoons Soy sauce</li>
+            <li class="recipe-ingredient">1 Tablespoon Olive oil</li>
+            <li class="recipe-ingredient">2 teaspoon Cumins</li>
+            <li class="recipe-ingredient">3 slices of Cheese</li>
+            <li class="recipe-ingredient">1 teaspoon smoked Paprika</li>
+            <li class="recipe-ingredient">Salt to taste</li>
+            <li class="recipe-ingredient">8 soft Taco wraps</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Sauce:</u>
+            <li class="recipe-ingredient">1 red Onion (medium)</li>
+            <li class="recipe-ingredient">3 Garlic clovess</li>
+            <li class="recipe-ingredient">1 red Chilli (deseeded)</li>
+            <li class="recipe-ingredient">2 Tablespoons Tomato paste</li>
+            <li class="recipe-ingredient">80ml pineapple juice</li>
+            <li class="recipe-ingredient">1 Tablespoons Soy sauce</li>
+            <li class="recipe-ingredient">130g (tin) black Beans</li>
+            <li class="recipe-ingredient">Salt and black Pepper to taste</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Salsa Verde:</u>
+            <li class="recipe-ingredient">1 bunch of Parsley</li>
+            <li class="recipe-ingredient">2 Garlic cloves</li>
+            <li class="recipe-ingredient">4 Tablespoons Greek yoghurt</li>
+            <li class="recipe-ingredient">4 Tablespoons Mayo</li>
+            <li class="recipe-ingredient">½ Lemon, juice</li>
+            <li class="recipe-ingredient">1 teaspoons Cumin</li>
+            <li class="recipe-ingredient">1 teaspoon Agave nectar</li>
+          </ul>
+          <ul class="recipe-ingredients">
+            <u>Garnish:</u>
+            <li class="recipe-ingredient">Avocado</li>
+            <li class="recipe-ingredient">Sweet corn</li>
+            <li class="recipe-ingredient">Tomato (chopped)</li>
+            <li class="recipe-ingredient">Lime</li>
+            <li class="recipe-ingredient">Coriander leaves to decorate</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Use a clean tea towel to press the tofu and remove any excess
+              moisture. Use the large side of a block grater to grate the tofu
+              into shreds. You'll also end up with a few crumbly bits, which is
+              fine. Combine tofu, soy sauce, oil, cumin, smoked paprika, salt
+              and spread over large lined baking tray and bake for 10-15 minutes
+              or until slightly golden.
+            </li>
+            <li class="recipe-instruction">
+              In a large frying pan, heat one tablespoon of oil and add the
+              sliced onion chilli and garlic, fry until softened. Then add
+              cumin, smoked paprika, tomato paste, stir occasionally for 2-3
+              minutes. Add pineapple juice, soy sauce and black beans stir it in
+              and bring to bubble.
+            </li>
+            <li class="recipe-instruction">
+              Reduce the heat and stir in the baked tofu, cook for another 2-3
+              minutes.
+            </li>
+            <li class="recipe-instruction">
+              Time to prepare salsa verde. Place a bunch of parsley, garlic,
+              greek yoghurt, mayo, lemon, cumin, agave nectar in blender and
+              blitz until smooth.
+            </li>
+            <li class="recipe-instruction">
+              Assemble 8 soft taco wraps serve with, tomato, salsa verde,
+              avocado and sweet corn, decorate with coriander leaves.
+            </li>
+          </ol>
+
+          <a href="#back-tofu-tacos" class="link">Go to The Top</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-6" id="squash-curry">
+          <h3 class="mb-3 mt-3 mt-lg-5">
+            Creamy Sweet Potato & Butternut Squash Curry
+          </h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 60 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">2 tablespoons olive Oil</li>
+            <li class="recipe-ingredient">1 red Onion , diced</li>
+            <li class="recipe-ingredient">
+              1 Tablespoon grated ginger (thumb size)
+            </li>
+            <li class="recipe-ingredient">
+              1 Tablespoon grated garlic (about 3 cloves)
+            </li>
+            <li class="recipe-ingredient">1 teaspoon Turmeric powder</li>
+            <li class="recipe-ingredient">1 teaspoon coriander powder</li>
+            <li class="recipe-ingredient">½ teaspoon mustard seeds</li>
+            <li class="recipe-ingredient">1 teaspoon garam masala</li>
+            <li class="recipe-ingredient">½ teaspoon cayenne pepper</li>
+            <li class="recipe-ingredient">½ teaspoon smoked paprika powder</li>
+            <li class="recipe-ingredient">400ml Passata</li>
+            <li class="recipe-ingredient">2 medium Sweet potato (cubed)</li>
+            <li class="recipe-ingredient">1 medium Butternut squash (cubed)</li>
+            <li class="recipe-ingredient">400g tin Chickpeas</li>
+            <li class="recipe-ingredient">200ml Coconut milk</li>
+            <li class="recipe-ingredient">Salt & pepper to taste</li>
+            <li class="recipe-ingredient">Rice to serve</li>
+            <li class="recipe-ingredient">Coriander leaves for garnish</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Preheat the oven to 180°C and line a baking tray with baking
+              paper. Place the sweet potato and butternut squash onto the sheet,
+              drizzle with olive oil, sprinkle generously with salt and pepper,
+              the smoked paprika. Toss to coat, spread evenly, bake for 35
+              minutes or until golden brown and crisp around the edges.
+            </li>
+            <li class="recipe-instruction">
+              Heat the oil in a large pot. Add the onions and cook for 2-3
+              minutes, stirring often. Add the ginger, garlic, turmeric,
+              coriander powder, mustard seeds, cayenne pepper, garam masala and
+              fry for another minute.
+            </li>
+            <li class="recipe-instruction">
+              Add the passata, chickpeas cook for 5 minutes. Stir in sweet
+              potato and butternut squash and cook for another 2 minutes before
+              adding the coconut milk. Bring this mixture to a boil then cover
+              and simmer for 15 minutes. Remove the lid and season with salt and
+              pepper. Cover again and cook for another 15 minutes.
+            </li>
+            <li class="recipe-instruction">
+              Serve hot with rice, coriander leaves and flat bread.
+            </li>
+          </ol>
+
+          <a href="#back-squash-curry" class="link">Go to The Top</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="/images/squash-curry2.jpg"
+            alt="butternut squash curry"
+            title="butternut squash curry"
+            class="recipe-image img-fluid rounded-end-pill"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/images/beetroot-soup.JPG"
+            alt="Roasted Beetroot & Carrot Soup"
+            title="Roasted Beetroot & Carrot Soup"
+            class="recipe-image img-fluid rounded-start-pill"
+          />
+        </div>
+        <div class="col-lg-6" id="beetroot-soup">
+          <h3 class="mb-3">Roasted Beetroot & Carrot Soup</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 60 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">
+              4 medium Beetroots (raw scrubbed and diced)
+            </li>
+            <li class="recipe-ingredient">
+              1kg Carrot (raw scrubbed and diced)
+            </li>
+            <li class="recipe-ingredient">Extra virgin Olive oil</li>
+            <li class="recipe-ingredient">1 red Onion, diced</li>
+            <li class="recipe-ingredient">
+              1L Vegetable stock (2 veggie stock cubes on 1L of hot water)
+            </li>
+            <li class="recipe-ingredient">1 Tablespoon fresh Rosemary</li>
+            <li class="recipe-ingredient">1 Tablespoon fresh Thyme</li>
+            <li class="recipe-ingredient">1 Chilli (deseeded)</li>
+            <li class="recipe-ingredient">Salt and Pepper to taste</li>
+            <li class="recipe-ingredient">
+              4 Tablespoons Double cream + decoration
+            </li>
+            <li class="recipe-ingredient">Mint and parsley to decorate</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Preheat the oven to 180°C and line a baking tray with baking
+              paper. Place the beetroot and carrot onto the sheet, drizzle with
+              olive oil, sprinkle generously with salt and pepper, roast for
+              around 45minutes until tender.
+            </li>
+            <li class="recipe-instruction">
+              Heat the oil in a large pot. Add the onion fresh deseeded chilli
+              and fry for 2-3 minutes, stirring often. Then add thyme and
+              rosemary, fry for another minute.
+            </li>
+            <li class="recipe-instruction">
+              Stir in baked beetroot and carrots, add vegetable stock, salt and
+              pepper to taste and let it simmer for 10 minutes.
+            </li>
+            <li class="recipe-instruction">
+              Transfer soup to a blender and blitz with double cream until
+              smooth.
+            </li>
+            <li class="recipe-instruction">
+              Decorate with double cream, parsley and mint leaves.
+            </li>
+          </ol>
+
+          <a href="#back-beetroot-soup" class="link">Go to The Top</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row flex-column-reverse flex-lg-row">
+        <div class="col-lg-6" id="detox-soup">
+          <h3 class="mb-3 mt-3 mt-lg-3">Detox Turmeric Lentil Soup</h3>
+
+          <h5 class="recipe-instructions">⏱️ Prep & Cook Time 60 minutes</h5>
+
+          <ul class="recipe-ingredients">
+            INGREDIENTS:
+            <li class="recipe-ingredient">2 tablespoons Avocado oil</li>
+            <li class="recipe-ingredient">1 cup chopped Onion</li>
+            <li class="recipe-ingredient">1 cup chopped Celery</li>
+            <li class="recipe-ingredient">1 cup chopped Turnip</li>
+
+            <li class="recipe-ingredient">2 ½ cups chopped sweet Potato</li>
+            <li class="recipe-ingredient">2 minced Garlic cloves</li>
+
+            <li class="recipe-ingredient">1 teaspoon sea Salt</li>
+            <li class="recipe-ingredient">1 teaspoon black Pepper</li>
+            <li class="recipe-ingredient">1 teaspoon dried Thyme</li>
+            <li class="recipe-ingredient">1 cup green Lentils</li>
+            <li class="recipe-ingredient">1 cup red Lentils</li>
+            <li class="recipe-ingredient">2 tablespoons Turmeric</li>
+            <li class="recipe-ingredient">1 teaspoon Ginger powder</li>
+            <li class="recipe-ingredient">1 teaspoon Cumin powder</li>
+            <li class="recipe-ingredient">1L Vegetable broth</li>
+            <li class="recipe-ingredient">1 cup Oat milk</li>
+            <li class="recipe-ingredient">1 cup Spinach</li>
+            <li class="recipe-ingredient">1 cup fresh Parsley</li>
+            <li class="recipe-ingredient">1 teaspoon Lemon juices</li>
+            <li class="recipe-ingredient">½ teaspoon Chilli flakes</li>
+          </ul>
+          <ol class="recipe-instructions">
+            INSTRUCTIONS:
+            <li class="recipe-instruction">
+              Heat the oil in a large stockpot. Add onions, celery, turnip,
+              potato and garlic and saute for about 5 minutes until everything
+              softens slightly. Season with salt, pepper and thyme and cook
+              about 2 minutes.
+            </li>
+            <li class="recipe-instruction">
+              Add lentils, turmeric, ginger and cumin and saute 1 – 2 minutes,
+              then add the broth. Bring the soup to a boil, cover and reduce to
+              simmer for 30 minutes.
+            </li>
+            <li class="recipe-instruction">
+              Remove from heat and stir in oat milk, spinach, parsley, lemon and
+              chilli flakes until spinach has wilted.
+            </li>
+            <li class="recipe-instruction">
+              Serve with Greek yoghurt, parsley, slice of lemon and sprinkle
+              with chili flakes.
+            </li>
+          </ol>
+
+          <a href="#back-detox-soup" class="link">Go to The Top</a>
+        </div>
+
+        <div class="col-lg-6 mb-5">
+          <img
+            src="/images/detox-soup2.JPG"
+            alt="Detox Turmeric Lentil Soup"
+            title="Detox Turmeric Lentil Soup"
+            class="recipe-image img-fluid rounded-end-pill"
+          />
+        </div>
+      </div>
+    </div>
+    <footer class="text-white pt-2 mt-5" style="background-color: #ddf0c2">
+      <div class="text-center links">
+
+        <a href="/" title="Homepage">
+          <i class="fa-solid fa-house"></i
+        ></a>
+        <a
+          href="/about.html"
+          title="About Eat Tasty Meal"
+        >
+          <i class="fa-solid fa-address-card"></i
+        ></a>
+        <a
+          href="/contact.html"
+          title="Contact Eat Tasty Meal"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <div
+        class="coded-by text-left p-2"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2024 Coded by PO
+
+      </div>
+    </footer>
+  </body>
+</html>
