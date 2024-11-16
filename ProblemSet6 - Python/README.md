@@ -1,6 +1,6 @@
-# [Problem Set 6](https://cs50.harvard.edu/x/2024/psets/6/)
+## [Problem Set 6](https://cs50.harvard.edu/x/2024/psets/6/)
 
-## My solution to Problem Set 6, datails of each problem set 🔗:
+### My solution to Problem Set 6, datails of each problem set 🔗:
 
 - [Hello, Again](https://cs50.harvard.edu/x/2024/psets/6/hello/)
 - [Mario - less](https://cs50.harvard.edu/x/2024/psets/6/mario/less/)
