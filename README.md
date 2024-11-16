@@ -1,5 +1,7 @@
 # This is CS50x 2024
 
+🔗 [My CS50x 2024 certificate](https://certificates.cs50.io/9679cba2-57e0-4719-ab94-9682f6816cef.pdf?size=letter) 
+
 ## CS50’s Introduction to Computer Science
 
 ### [Week 0 Scratch](https://cs50.harvard.edu/x/2024/weeks/0/)
